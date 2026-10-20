@@ -136,7 +136,7 @@ html.range-dragging .context {user-select:none}
 .range-preview.cpr .range-preview-rect {border-color:var(--cpr);background:var(--cpr-preview)}
 .mark.drag-source {background:transparent;color:var(--text);box-shadow:none;outline:1px dashed var(--line);outline-offset:2px}
 .mark.drag-source .mark-badges {opacity:.3}
-.selection-toolbar {position:fixed;z-index:70;display:flex;padding:5px;border:1px solid var(--line);border-radius:6px;background:var(--surface);box-shadow:var(--shadow)}
+.selection-toolbar {position:fixed;z-index:70;display:flex;padding:0;border:0;background:transparent;box-shadow:none}
 .selection-toolbar[hidden] {display:none}
 .selection-toolbar button {padding:5px 10px;font-size:12px}
 ::highlight(selection-draft) {background-color:transparent}

@@ -36,6 +36,8 @@ button:disabled:hover {background:var(--surface)}
 :is(button,input,select,.context,.edge):focus-visible {outline:2px solid var(--accent);outline-offset:2px}
 .primary {background:var(--accent-soft);border-color:var(--accent-soft);color:var(--accent)}
 .primary:hover {background:var(--hover);border-color:var(--line);color:var(--text)}
+#review-toggle.reviewed {background:var(--cpr-bg);border-color:var(--cpr-bg);color:var(--cpr)}
+#review-toggle.reviewed:hover {border-color:var(--cpr)}
 .quiet {background:transparent;border-color:transparent}
 .hint,.interaction-help {color:var(--muted)}
 
@@ -130,7 +132,7 @@ h1,.section-head strong {font-family:var(--heading-font)}
 .annotation-row .pill,.annotation-row .annotation-warning {font-size:11px}
 .annotation-row {border:1px solid var(--line);border-radius:8px;background:var(--surface);box-shadow:none}
 .annotation-row:hover {border-color:var(--line)}
-.label-menu,.selection-toolbar {border:1px solid var(--line);border-radius:8px;background:var(--surface);box-shadow:var(--shadow)}
+.label-menu {border:1px solid var(--line);border-radius:8px;background:var(--surface);box-shadow:var(--shadow)}
 .toast {border:1px solid var(--line);box-shadow:var(--shadow)}
 html[data-style="macos"] .brand strong,html[data-style="macos"] h1,html[data-style="macos"] .side-head strong,html[data-style="macos"] .section-head strong {font-family:Georgia,"Times New Roman",serif}
 html[data-custom-font="true"] body,html[data-custom-font="true"] body * {font-family:"ImportedInterfaceFont",-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif !important}
